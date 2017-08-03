@@ -1,0 +1,10 @@
+framework module DipUI {
+  umbrella header "DipUI.h"
+
+  export *
+  module * { export * }
+}
+
+module DipUI.Swift {
+    header "DipUI-Swift.h"
+}
